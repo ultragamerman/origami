@@ -1,0 +1,33 @@
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content:space-between;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 32;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: fantasy;
+}
+.grid img{
+    border: 3px solid rgb(0, 0, 0);
+}
+img:hover{
+    opacity: 50%;
+}
+.grid ol{
+   text-align: center;
+}
+.grid a{
+    align-content: center;
+}
+.grid li{
+    text-align:center;
+}
+p{
+    text-align: center;
+}
